@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/apigateway-service/apigateway-service.iml" filepath="$PROJECT_DIR$/apigateway-service/apigateway-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/discoverysevice/discoveryserver.iml" filepath="$PROJECT_DIR$/discoverysevice/discoveryserver.iml" />
       <module fileurl="file://$PROJECT_DIR$/first-service/first-service.iml" filepath="$PROJECT_DIR$/first-service/first-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/second-service/second-service.iml" filepath="$PROJECT_DIR$/second-service/second-service.iml" />
