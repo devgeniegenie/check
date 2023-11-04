@@ -19,8 +19,6 @@
     <file url="file://$PROJECT_DIR$/userservice/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zuul-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zuul-service/src/main/resources" charset="UTF-8" />
-    <file url="jar://$MAVEN_REPOSITORY$/org/modelmapper/modelmapper/2.3.8/modelmapper-2.3.8.jar!/org/modelmapper/ModelMapper.class" charset="UTF-16LE" />
-    <file url="jar://$MAVEN_REPOSITORY$/org/modelmapper/modelmapper/2.3.8/modelmapper-2.3.8.jar!/org/modelmapper/internal/MappingEngineImpl.class" charset="UTF-16LE" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
