@@ -5,7 +5,8 @@ import org.springframework.data.repository.CrudRepository;
 
 public interface UserRepository extends CrudRepository<UserEntity, Long> {
 
-    UserDto findByUserId(String userId);
+//    UserDto findByUserId(String userId);
+    UserEntity findByUserId(String userId);
 
     UserEntity findByEmail(String username);
 }

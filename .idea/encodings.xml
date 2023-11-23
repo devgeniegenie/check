@@ -15,11 +15,14 @@
     <file url="file://$PROJECT_DIR$/second-service/src/main/resources/application.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/user-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/user-service/src/main/resources/application.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user-service/target/classes/com/example/userservice/controller/UserController.class" charset="UTF-16LE" />
     <file url="file://$PROJECT_DIR$/userservice/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/userservice/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zuul-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zuul-service/src/main/resources" charset="UTF-8" />
     <file url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.7.17/spring-data-commons-2.7.17.jar!/org/springframework/data/repository/CrudRepository.class" charset="UTF-16LE" />
+    <file url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.7.17/spring-data-commons-2.7.17.jar!/org/springframework/data/repository/Repository.class" charset="UTF-16BE" />
+    <file url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.7.11/spring-security-config-5.7.11.jar!/org/springframework/security/config/annotation/authentication/configuration/AuthenticationConfiguration.class" charset="UTF-16BE" />
     <file url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.7.11/spring-security-config-5.7.11.jar!/org/springframework/security/config/annotation/web/AbstractRequestMatcherRegistry.class" charset="UTF-16BE" />
     <file url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.7.11/spring-security-core-5.7.11.jar!/org/springframework/security/authentication/AuthenticationManager.class" charset="UTF-16BE" />
     <file url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.7.11/spring-security-core-5.7.11.jar!/org/springframework/security/core/userdetails/User.class" charset="UTF-16LE" />
