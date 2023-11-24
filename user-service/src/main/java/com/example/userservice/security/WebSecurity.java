@@ -32,11 +32,11 @@ public class WebSecurity {
 
     @Bean
     protected SecurityFilterChain config(HttpSecurity http) throws Exception {
-        List<RequestMatcher> requestMatchersList = Arrays.asList(
+        RequestMatcher[] requestMatchersList = new RequestMatcher[]{
                 new AntPathRequestMatcher("/users/**"),
                 new AntPathRequestMatcher("/"),
                 new AntPathRequestMatcher("/**")
-        );
+        };
 
         http.csrf().disable();
         http.headers().frameOptions().disable();
@@ -44,7 +44,7 @@ public class WebSecurity {
                     try {
                         authorize
 //                                .requestMatchers(new AntPathRequestMatcher("/users/**"), new AntPathRequestMatcher("/"), new AntPathRequestMatcher("/**")).permitAll()
-                                .requestMatchers(requestMatchersList.toArray(new RequestMatcher[0])).permitAll()
+                                .requestMatchers(requestMatchersList).permitAll()
                                 .requestMatchers(new IpAddressMatcher("127.0.0.1")).permitAll()
                                 .and()
                                 .addFilter(getAuthenticationFilter());
