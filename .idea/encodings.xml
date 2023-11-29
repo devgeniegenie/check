@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/.gitignore" charset="US-ASCII" />
     <file url="file://$PROJECT_DIR$/apigateway-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apigateway-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/apigateway-service/src/main/resources/application.yml" charset="UTF-8" />
@@ -15,22 +16,10 @@
     <file url="file://$PROJECT_DIR$/second-service/src/main/resources/application.yml" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/user-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/user-service/src/main/resources/application.yml" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/user-service/target/classes/com/example/userservice/controller/UserController.class" charset="UTF-16LE" />
     <file url="file://$PROJECT_DIR$/userservice/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/userservice/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zuul-service/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/zuul-service/src/main/resources" charset="UTF-8" />
-    <file url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.7.17/spring-data-commons-2.7.17.jar!/org/springframework/data/repository/CrudRepository.class" charset="UTF-16LE" />
-    <file url="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.7.17/spring-data-commons-2.7.17.jar!/org/springframework/data/repository/Repository.class" charset="UTF-16BE" />
-    <file url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.7.11/spring-security-config-5.7.11.jar!/org/springframework/security/config/annotation/authentication/configuration/AuthenticationConfiguration.class" charset="UTF-16BE" />
-    <file url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.7.11/spring-security-config-5.7.11.jar!/org/springframework/security/config/annotation/web/AbstractRequestMatcherRegistry.class" charset="UTF-16BE" />
-    <file url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.7.11/spring-security-core-5.7.11.jar!/org/springframework/security/authentication/AuthenticationManager.class" charset="UTF-16BE" />
-    <file url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.7.11/spring-security-core-5.7.11.jar!/org/springframework/security/core/Authentication.class" charset="UTF-16BE" />
-    <file url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.7.11/spring-security-core-5.7.11.jar!/org/springframework/security/core/userdetails/User.class" charset="UTF-16LE" />
-    <file url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.7.11/spring-security-web-5.7.11.jar!/org/springframework/security/web/authentication/AbstractAuthenticationProcessingFilter.class" charset="UTF-16LE" />
-    <file url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.7.11/spring-security-web-5.7.11.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.class" charset="UTF-16LE" />
-    <file url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.7.11/spring-security-web-5.7.11.jar!/org/springframework/security/web/util/matcher/AntPathRequestMatcher.class" charset="UTF-16BE" />
-    <file url="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.7.11/spring-security-web-5.7.11.jar!/org/springframework/security/web/util/matcher/RequestMatcher.class" charset="UTF-16LE" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

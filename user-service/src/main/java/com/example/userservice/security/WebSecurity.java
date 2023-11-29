@@ -2,6 +2,7 @@ package com.example.userservice.security;
 
 import com.example.userservice.service.UserService;
 import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.env.Environment;
@@ -25,6 +26,7 @@ public class WebSecurity {
     private final BCryptPasswordEncoder bCryptPasswordEncoder;
     private final ObjectPostProcessor<Object> objectPostProcessor;
 
+    @Autowired
     private Environment env;
 
     @Bean
