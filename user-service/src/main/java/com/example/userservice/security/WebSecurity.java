@@ -34,7 +34,8 @@ public class WebSecurity {
         RequestMatcher[] requestMatchersList = new RequestMatcher[]{
                 new AntPathRequestMatcher("/users/**"),
                 new AntPathRequestMatcher("/"),
-                new AntPathRequestMatcher("/**")
+                new AntPathRequestMatcher("/**"),
+                new AntPathRequestMatcher("/actuator/**")
         };
 
         http.csrf().disable();
