@@ -4,8 +4,20 @@ server:
 spring:
   application:
     name: config-server
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
   cloud:
     config:
       server:
         git:
+          default-label: master
           uri: file:///C:/toy/test-msa/git-local-repo
+#          uri: https://github.com/xxx/yyy 깃헙 레포 주소로 대체
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, busrefresh
