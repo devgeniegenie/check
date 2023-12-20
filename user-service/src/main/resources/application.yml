@@ -9,11 +9,11 @@ spring:
     port: 5672
     username: guest
     password: guest
-  datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/msa_test?serverTimezone=Asia/Seoul
-    username: root
-    password: 1a2a3a4a
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/msa_test?serverTimezone=Asia/Seoul
+#    username: root
+#    password: 1a2a3a4a
   jpa:
     database: mysql
     database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
